@@ -1,0 +1,19 @@
+Site Sections
+
+Landing Page:
+    The landing page should have a nice picture of myself.
+    This section will have a little information about me and
+    what I've done.
+
+About Me:
+    This page should go more in depth about me personally.
+    There should be some hobbyist interests in this section as well.
+
+Experience:
+    This page will have content that could be resume material.
+    Work experience and projects go here. Skills and programming
+    knowledge should also exist on this page.
+
+Projects:
+    Where projects should live. Maybe have a couple of past projects
+    and a link to my github.
