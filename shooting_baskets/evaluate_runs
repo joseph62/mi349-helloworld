@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+
+def main():
+    analyze = argv[1]
+    with open(analyze) as data:
+        print(data)
+
+main()

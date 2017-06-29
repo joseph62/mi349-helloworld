@@ -1,0 +1,41 @@
+<?php
+
+$Output = array();
+exec("cat ./cowfile.txt", $Output);
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sean Joseph's Homepage</title>
+    <link href="SeanStyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<h1>Welcome to Sean Joseph's Homepage!</h1>
+</header>
+
+<article>
+
+<h2>About Me</h2>
+<p>I am currently pursuing my undergrad degree in Computer Science at The MSU College of Engineering.</p>
+<p>I work as a student for The Division of Engineering and Computing Services.</p>
+
+<?php
+
+echo '<pre>';
+foreach($Output as $element){
+	echo "$element";
+	echo "<br/>";
+}
+echo '</pre>';
+
+?>
+
+<p> This is an artist's rendition of me. Not really, I was just practicing ASCII Art.
+This is supposed to be a cat. It looks more like a bat though. </p>
+
+</article>
+</body>
+</html>
